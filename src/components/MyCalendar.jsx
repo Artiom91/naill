@@ -14,7 +14,7 @@ const TimeSelect = () => {
     terms: false,
   });
 
-  const timeOptions = ["09:00", "14:00", "16:00", "18:00", "11:00"];
+  const timeOptions = ["09:00", "11:00", "14:00", "16:00", "18:00"];
 
   const [selectedDate, setSelectedDate] = useState(null);
   const [selectedTime, setSelectedTime] = useState(null);
@@ -182,7 +182,7 @@ const TimeSelect = () => {
                     htmlFor="name"
                     className="block text-sm font-medium text-gray-700"
                   >
-                    Нume, Prenume
+                    Nume, Prenume
                   </label>
                   <input
                     type="text"
